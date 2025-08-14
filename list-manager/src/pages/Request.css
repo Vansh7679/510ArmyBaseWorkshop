@@ -1,0 +1,67 @@
+/* Background setup */
+.request-page {
+  background-image: url('../assets/army-bg.png'); /* adjust path if needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+/* Container for form */
+.request-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Headings */
+.green-text {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+.yellow-text {
+  color: #f5b301;
+  font-weight: bold;
+}
+
+/* Labels & Inputs */
+.request-form label {
+  display: block;
+  margin: 15px 0 8px;
+  font-weight: bold;
+  color: yellow;
+}
+
+.request-form input[type='file'],
+.request-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.request-form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #4CAF50, #388E3C);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.request-form button:hover {
+  background: linear-gradient(to right, #66BB6A, #2E7D32);
+}
