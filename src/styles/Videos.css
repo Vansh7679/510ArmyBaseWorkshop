@@ -1,0 +1,33 @@
+.videos-page {
+  background-image: url('../assets/army-bg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 30px;
+  color: white;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #f9e72a;
+  border-bottom: 2px solid orange;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 0 20px;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
